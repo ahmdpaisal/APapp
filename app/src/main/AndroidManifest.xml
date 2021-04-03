@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ap.apapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.APapp">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RS"></activity>
+        <activity android:name=".RSAwalBros"></activity>
+        <activity android:name=".RSEkaHospital"></activity>
+        <activity android:name=".RSJiwaTampan"></activity>
+        <activity android:name=".RSTabrani"></activity>
+        <activity android:name=".polisi"></activity>
+        <activity android:name=".PolrestaPekanbaru"></activity>
+        <activity android:name=".PolresKampar"></activity>
+        <activity android:name=".PolresSiak"></activity>
+        <activity android:name=".supmarket"></activity>
+        <activity android:name=".hypermart"></activity>
+        <activity android:name=".SuperstarSwalayan"></activity>
+        <activity android:name=".sekolah"></activity>
+        <activity android:name=".UINSuska"></activity>
+        <activity android:name=".UIR"></activity>
+        <activity android:name=".UNRI"></activity>
+    </application>
+
+</manifest>
